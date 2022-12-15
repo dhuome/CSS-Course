@@ -16,6 +16,11 @@
     font-size: 2rem;
     font-weight: bold;
 }
+.plan-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 .plan {
     background-color: #7c9bb15e;
