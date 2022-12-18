@@ -21,6 +21,7 @@ main {
     background-color: whitesmoke;
     border-radius: 5px;
     width: 80%;
+    position: relative;
 }
 
 .package-card a {
@@ -31,6 +32,16 @@ main {
     color: #20353E;
     font-size: 24px;
     letter-spacing: 5px;
+}
+
+.package-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    font-size: 16px;
+    color: snow;
+    padding: 8px 16px;
 }
 
 .package-sub-title {
